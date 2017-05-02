@@ -1,6 +1,6 @@
 {
   "name": "stream-sink",
-  "version": "2.0.1-2",
+  "version": "2.0.1-3",
   "description": "Collect all data piped to this stream when it closes",
   "main": "sink.js",
   "scripts": {
