@@ -1,10 +1,12 @@
 {
-  "name": "stream-sink",
-  "version": "2.2.2-3",
+  "name": "@gerhobbelt/stream-sink",
+  "version": "2.2.2-4",
   "description": "Collect all data piped to this stream when it closes",
   "main": "sink.js",
   "scripts": {
-    "test": "rm -rf coverage && istanbul cover node_modules/mocha/bin/_mocha -- test && istanbul check-coverage --lines 100 --functions 100 --branches 95 --statements 99"
+    "test": "rm -rf coverage && istanbul cover node_modules/mocha/bin/_mocha -- test && istanbul check-coverage --lines 100 --functions 100 --branches 95 --statements 99",
+    "clear": "rm -f package-lock.json ; rm -rf node_modules",
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -24,9 +26,9 @@
     "node": ">=4.0"
   },
   "devDependencies": {
-    "chai": "3.5.0",
-    "delay": "2.0.0",
+    "chai": "4.1.2",
+    "delay": "3.0.0",
     "istanbul": "0.4.5",
-    "mocha": "3.3.0"
+    "mocha": "5.2.0"
   }
 }
