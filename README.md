@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/GerHobbelt/node-stream-sink.png)](https://travis-ci.org/GerHobbelt/node-stream-sink)
 [![view on npm](http://img.shields.io/npm/v/@gerhobbelt/stream-sink.svg)](https://www.npmjs.org/package/@gerhobbelt/stream-sink)
 [![NPM version](https://badge.fury.io/js/@gerhobbelt/stream-sink.svg)](http://badge.fury.io/js/@gerhobbelt/stream-sink)
-[![Dependency Status](https://img.shields.io/david/@gerhobbelt/stream-sink.svg)](https://david-dm.org/@gerhobbelt/stream-sink)
+[![Dependency Status](https://img.shields.io/david/GerHobbelt/node-stream-sink.svg)](https://david-dm.org/GerHobbelt/node-stream-sink)
 
 
 stream-sink
